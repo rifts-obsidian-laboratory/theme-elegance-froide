@@ -1,0 +1,24 @@
+{
+  "name": "theme-elegance-froide",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass src/main.scss:theme.css --style=compressed --no-source-map",
+    "watch": "sass --watch src/main.scss:theme.css --style=expanded --no-source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rifts-obsidian-laboratory/theme-elegance-froide.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rifts-obsidian-laboratory/theme-elegance-froide/issues"
+  },
+  "homepage": "https://github.com/rifts-obsidian-laboratory/theme-elegance-froide#readme",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.102.0"
+  }
+}
