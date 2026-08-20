@@ -1,0 +1,1 @@
+I will write a more detailed description in a future update, but Élégance froide is a theme willing to make Obsidian more elegant. It additionally aims to push this elegance into a colder version of itself.
