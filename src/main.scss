@@ -1,0 +1,5 @@
+@use "base"; // Première couche implémentant les ressources de base nécessaires au bon fonctionnement du thème.
+@use "variables"; // Seconde couche qui créée ou réécrit des variables.
+@use "elements"; // Troisième couche qui définit les styles de base de chaque élément HTML.
+@use "components"; // Quatrième couche qui définit les styles pour un composant dans son ensemble, il peut réécrire les styles d'un élément.
+@use "application"; // Cinquième couche qui définit les styles pour une section de l'application dans son ensemble, il peut réécrire les styles d'un composant.
