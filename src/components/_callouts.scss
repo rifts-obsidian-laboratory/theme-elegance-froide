@@ -1,0 +1,44 @@
+.callout-title {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  padding: 8px;
+}
+
+.callout:is(.is-collapsible) .callout-title {
+  cursor: pointer;
+}
+
+.callout:not(.is-collapsible) .callout-title,
+.callout:is(.is-collapsible):not(.is-collapsed) .callout-title {
+  border-bottom: var(--callout-border-width) solid color-mix(in oklch, var(--callout-color) calc(var(--callout-border-opacity) * 100%), transparent);
+  margin-bottom: 8px;
+}
+
+.callout-icon {
+  //display: none;
+  margin-left: auto;
+  order: 3;
+}
+
+.callout-title-inner {
+  font-family: "Merriweather", serif;
+  order: 2;
+}
+
+.callout-fold {
+  padding-right: 0;
+  order: 1;
+}
+
+.callout-content {
+  padding: 0 8px 8px 8px;
+}
+
+.callout-content *:first-child {
+  margin-top: 0;
+}
+
+.callout-content *:last-child {
+  margin-bottom: 0;
+}
