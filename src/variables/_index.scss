@@ -1,1 +1,23 @@
-@use "obsidian";
+body {
+  --font-text-theme: "Noto Sans", sans-serif;
+  --font-interface-theme: "Noto Sans", sans-serif;
+  --font-monospace-theme: "Noto Sans Mono", monospace;
+
+  --h1-font: "Merriweather", serif;
+  --h1-weight: 400;
+
+  --h2-font: "Merriweather", serif;
+  --h2-weight: 400;
+
+  --h3-font: "Merriweather", serif;
+  --h3-weight: 400;
+
+  --h4-font: "Merriweather", serif;
+  --h4-weight: 400;
+
+  --h5-font: "Merriweather", serif;
+  --h5-weight: 400;
+
+  --h6-font: "Merriweather", serif;
+  --h6-weight: 400;
+}
