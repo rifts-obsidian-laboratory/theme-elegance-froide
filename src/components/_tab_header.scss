@@ -1,0 +1,89 @@
+// Styles appliqués à l'en-tête d'onglets du panneau de gauche et du panneau de droite.
+
+.workspace-split.mod-left-split, .workspace-split.mod-right-split {
+  .workspace-tab-header-container {
+    padding: 8px;
+    height: fit-content;
+  }
+
+  .workspace-tab-header-container-inner {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding: 0;
+    margin: 0;
+    height: fit-content;
+  }
+
+  .workspace-tab-header {
+    cursor: pointer;
+    border-radius: 0;
+    height: fit-content;
+
+    .workspace-tab-header-inner {
+      cursor: pointer;
+      border-radius: 0;
+      padding: 4px;
+      width: fit-content;
+      height: fit-content;
+    }
+  }
+}
+
+// Styles appliqués à l'en-tête d'onglets du panneau central.
+
+.workspace-split.mod-root {
+  .workspace-tab-header-container {
+    height: fit-content;
+  }
+
+  .workspace-tab-header-container-inner {
+    //
+  }
+
+  .workspace-tab-header {
+    cursor: pointer;
+    border-radius: 0;
+    //min-width: var(--tab-width);
+    max-width: var(--tab-width);
+    height: fit-content;
+
+    :hover {
+      border-radius: 0;
+    }
+
+    &.is-active {
+      cursor: default;
+      padding: 8px;
+    }
+
+    &:not(.is-active) {
+      padding: 0;
+      height: 100%;
+
+      .workspace-tab-header-inner {
+        padding: 8px;
+      }
+    }
+
+    &::before, &::after {
+      display: none;
+    }
+  }
+
+  .workspace-tab-header-inner {
+    padding: 0;
+
+    .workspace-tab-header-inner-close-button {
+      cursor: pointer;
+    }
+  }
+
+  .workspace-tab-header-new-tab {
+    padding-bottom: 8px;
+  }
+
+  .workspace-tab-header-tab-list {
+    padding-bottom: 8px;
+  }
+}
