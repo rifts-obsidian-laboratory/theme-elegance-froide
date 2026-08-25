@@ -1,0 +1,54 @@
+.workspace-leaf-content[data-type="search"] {
+  .search-row {
+    margin: 8px;
+  }
+
+  .search-info-container {
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+
+    padding: 0 0 8px 0;
+
+    border-color: var(--nav-heading-color);
+    border-bottom: 1px solid;
+  }
+
+  .search-params {
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    padding: 0 0 8px 0;
+
+    border-color: var(--nav-heading-color);
+    border-bottom: 1px solid;
+  }
+
+  .search-results-info {
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    padding: 0 0 8px 0;
+
+    border-color: var(--nav-heading-color);
+
+    .search-results-result-count {
+      padding: 4px 8px;
+    }
+  }
+
+  .search-result-container {
+    margin-right: 8px;
+    margin-left: 8px;
+    padding: 0;
+
+    .tree-item-self {
+      padding: 4px 8px;
+      margin-bottom: 4px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
