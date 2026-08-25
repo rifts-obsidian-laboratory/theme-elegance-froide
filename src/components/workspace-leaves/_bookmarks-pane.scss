@@ -1,0 +1,17 @@
+div[data-type="bookmarks"] {
+  .view-content.view-content {
+    padding: 8px;
+  }
+
+  .tree-item {
+    margin-bottom: 4px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    .tree-item-self {
+      margin-bottom: 0;
+    }
+  }
+}
