@@ -1,0 +1,42 @@
+.outgoing-link-pane {
+  padding: 8px;
+
+  > .tree-item-self {
+    padding: 4px 8px 4px 8px;
+    margin: 12px 0 0 0;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  .search-result-container {
+    padding: 4px 0 0 0;
+    margin-bottom: 0;
+
+    &:not(:last-child) {
+      padding: 4px 0 16px 0;
+      margin-bottom: 16px;
+      border-radius: 0;
+      border-bottom: 1px solid var(--nav-heading-color);
+    }
+  }
+
+  .search-empty-state {
+    margin: 0;
+  }
+
+  .search-result-file-matches {
+    border-radius: 0;
+  }
+
+  .search-result-file-match {
+    cursor: pointer;
+    padding: 8px;
+  }
+
+  .search-result-file-match-destination-file {
+    cursor: pointer;
+    border-radius: 0;
+  }
+}

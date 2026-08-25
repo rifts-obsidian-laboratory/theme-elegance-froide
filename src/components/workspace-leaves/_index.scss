@@ -1,0 +1,24 @@
+@use "backlink-pane";
+@use "outgoing-link-pane";
+
+.nav-header {
+  .nav-buttons-container {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  .search-input-container {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+}
+
+.tree-item-self.tree-item-self {
+  border-radius: 0;
+  cursor: pointer;
+
+  &.is-active {
+    cursor: default;
+  }
+}
