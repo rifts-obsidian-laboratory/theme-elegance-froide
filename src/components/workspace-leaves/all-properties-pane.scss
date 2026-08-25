@@ -1,0 +1,13 @@
+div[data-type="all-properties"] {
+  .view-content {
+    padding: 8px;
+  }
+
+  .tree-item {
+    margin-bottom: 4px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
